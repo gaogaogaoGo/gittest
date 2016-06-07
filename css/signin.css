@@ -119,46 +119,30 @@ input:focus {
 
 .cover[id="right"] {
 	right: 0;
+	background: #1AB2E8;
 }
 .cover {
 	position: absolute;
 	top: 0;
 	height: 100%;
-	width: 100%;
-	background: #000;
-  opacity: 0;
-}
+	width: 1%;
+	background: #3B5998;
 
-.cover:hover {
+  transition:width 1s,background 1s,opacity 1s;
+	-moz-transition:width 1s,background 1s,opacity 1s; /* Firefox 4 */
+	-webkit-transition:width 1s,background 1s,opacity 1s; /* Safari and Chrome */
+	-o-transition:width 1s,background 1s,opacity 1s; /* Opera */
+}
+.Facebook:hover .cover{	
+	background-color: #000;
 	opacity: 0.2;
-	animation:myfirst 0.3s;
-	-moz-animation:myfirst 0.3s; 
-	-webkit-animation:myfirst 0.3s; 
-	-o-animation:myfirst 0.3s; 
+	width: 100%;	
+}
+.Twitter:hover .cover{
+	background-color: #000;
+	opacity: 0.2;
+	width: 100%;	
 }
 
-@-moz-keyframes myfirst /* Firefox */
-{
-0%   {width: 10%;}
-25%  {width: 40%;}
-50%  {width: 70%;}
-100%  {width: 100%;}
-}
-
-@-webkit-keyframes myfirst /* Safari and Chrome */
-{
-0%   {width: 10%;}
-25%  {width: 40%;}
-50%  {width: 70%;}
-100%  {width: 100%;}
-}
-
-@-o-keyframes myfirst /* Opera */
-{
-0%   {width: 10%;}
-25%  {width: 40%;}
-50%  {width: 70%;}
-100%  {width: 100%;}
-}
 
 
