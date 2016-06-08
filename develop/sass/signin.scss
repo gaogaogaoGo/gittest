@@ -21,7 +21,7 @@ body {
 }
 
 .signin {
-	height: 850px;
+	@include size(38rem, 60rem);
 	margin: 50px auto;
 	background: url(../img/bg.jpg) no-repeat center;
 	background-size: 100% 100%;
@@ -56,12 +56,13 @@ body {
 
 		input {
 		  @include size(85%,95%);
-		  border: none;
-		  font-size: 20px;
+		  font-size: 20px;		  
 		}
 
 		input[value]{
 			font-size: 16px;
+		}
+		input:focus {
 		}
 	}
 
@@ -83,8 +84,6 @@ body {
 			color: #F9671E;
 		}
 	}
-
-
 
 	.Facebook, .Twitter{
 		position:relative;
@@ -116,10 +115,11 @@ body {
 
 	.cover {
 		position: absolute;
-		top: 0;
+		top: 0px;
 		height: 100%;
-		width: 1%;
+		width: 4%;
 		background: #3B5998;
+		border-radius: 7px;
 
 	  transition:width 1s,background 1s,opacity 1s;
 		-moz-transition:width 1s,background 1s,opacity 1s; /* Firefox 4 */

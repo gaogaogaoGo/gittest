@@ -31,10 +31,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
-  font-size: 20px;
-  color: #fff;
-  background: #F98A53; }
+input {
+  border: none;
+  outline: medium; }
 
 body {
   font-size: 20px;
@@ -51,7 +50,8 @@ body {
     color: #fff; }
 
 .signin {
-  height: 850px;
+  width: 38rem;
+  height: 60rem;
   margin: 50px auto;
   background: url(../img/bg.jpg) no-repeat center;
   background-size: 100% 100%; }
@@ -80,7 +80,6 @@ body {
     .signin .signin-input input {
       width: 85%;
       height: 95%;
-      border: none;
       font-size: 20px; }
     .signin .signin-input input[value] {
       font-size: 16px; }
@@ -119,10 +118,11 @@ body {
     background: #1AB2E8; }
   .signin .cover {
     position: absolute;
-    top: 0;
+    top: 0px;
     height: 100%;
-    width: 1%;
+    width: 4%;
     background: #3B5998;
+    border-radius: 7px;
     transition: width 1s,background 1s,opacity 1s;
     -moz-transition: width 1s,background 1s,opacity 1s;
     /* Firefox 4 */

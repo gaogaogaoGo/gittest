@@ -12,8 +12,7 @@ ol,ul{list-style:none;margin:0px;padding:0px;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}
-body {
-	font-size: 20px;
-	color: #fff;
-	background: #F98A53;
+input{
+	border: none;
+	outline:medium;
 }

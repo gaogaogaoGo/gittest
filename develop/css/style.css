@@ -31,9 +31,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
-  font-size: 20px;
-  color: #fff;
-  background: #F98A53; }
+input {
+  border: none;
+  outline: medium; }
 
 /*# sourceMappingURL=style.css.map */
