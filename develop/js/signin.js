@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
 	// 	}
 	// }
 
-	$('.input-top, .input-bottom').on('click',function (evt) {
+	$('.input-bottom').on('click',function (evt) {
 		$(evt.currentTarget).children('input').val('');
 	});
 

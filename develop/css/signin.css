@@ -9,134 +9,163 @@ output, ruby, section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu,
 nav, section {
-  display: block; }
+  display: block;
+}
 
 ol, ul {
   list-style: none;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 input {
   border: none;
-  outline: medium; }
+  outline: medium;
+}
 
 body {
   font-size: 20px;
   color: #fff;
-  background: #F98A53; }
+  background: #F98A53;
+}
 
 .top {
   width: 100%;
   text-align: center;
-  padding-top: 50px; }
-  .top h1 {
-    font-size: 50px;
-    font-weight: 900;
-    color: #fff; }
+  padding-top: 50px;
+}
+.top h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #fff;
+}
 
 .signin {
   width: 38rem;
   height: 60rem;
   margin: 50px auto;
   background: url(../img/bg.jpg) no-repeat center;
-  background-size: 100% 100%; }
-  .signin .signin-cam {
-    background: url(../img/cam.png) no-repeat bottom;
-    /*position: absolute;*/
-    width: 100%;
-    height: 200px; }
-  .signin .signin-input {
-    background: #fff;
-    margin: 50px auto 0;
-    width: 400px;
-    height: 140px;
-    border-radius: 4px;
-    position: relative; }
-    .signin .signin-input img {
-      position: absolute;
-      top: 22px;
-      left: 20px; }
-    .signin .signin-input .input-top, .signin .signin-input .input-bottom {
-      width: 100%;
-      height: 70px;
-      text-align: right; }
-    .signin .signin-input .input-top {
-      border-bottom: 1px solid #C0C3C8; }
-    .signin .signin-input input {
-      width: 85%;
-      height: 95%;
-      font-size: 20px; }
-    .signin .signin-input input[value] {
-      font-size: 16px; }
-  .signin .sign-in {
-    width: 400px;
-    height: 60px;
-    margin: 20px auto;
-    border: 4px solid #F9671E;
-    border-radius: 7px;
-    background: #F9671E; }
-    .signin .sign-in p {
-      font-size: 30px;
-      text-align: center;
-      padding: 7px; }
-    .signin .sign-in:hover {
-      background: none;
-      color: #F9671E; }
-  .signin .Facebook, .signin .Twitter {
-    position: relative;
-    width: 400px;
-    height: 60px;
-    margin: 0px auto;
-    border-radius: 7px; }
-    .signin .Facebook p, .signin .Twitter p {
-      font-size: 23px;
-      padding: 13px;
-      text-align: center; }
-  .signin .Facebook {
-    margin-top: 80px;
-    background: #3B5998; }
-  .signin .Twitter {
-    margin-top: 20px;
-    background: #1AB2E8; }
-  .signin .cover[id="right"] {
-    right: 0;
-    background: #1AB2E8; }
-  .signin .cover {
-    position: absolute;
-    top: 0px;
-    height: 100%;
-    width: 4%;
-    background: #3B5998;
-    border-radius: 7px;
-    transition: width 1s,background 1s,opacity 1s;
-    -moz-transition: width 1s,background 1s,opacity 1s;
-    /* Firefox 4 */
-    -webkit-transition: width 1s,background 1s,opacity 1s;
-    /* Safari and Chrome */
-    -o-transition: width 1s,background 1s,opacity 1s;
-    /* Opera */ }
-  .signin .Facebook:hover .cover {
-    background-color: #000;
-    opacity: 0.2;
-    width: 100%; }
-  .signin .Twitter:hover .cover {
-    background-color: #000;
-    opacity: 0.2;
-    width: 100%; }
+  background-size: 100% 100%;
+}
+.signin .signin-cam {
+  background: url(../img/cam.png) no-repeat bottom;
+  /*position: absolute;*/
+  width: 100%;
+  height: 200px;
+}
+.signin .signin-input {
+  background: #fff;
+  margin: 50px auto 0;
+  width: 400px;
+  height: 140px;
+  border-radius: 4px;
+  position: relative;
+}
+.signin .signin-input img {
+  position: absolute;
+  top: 22px;
+  left: 20px;
+}
+.signin .signin-input .input-top, .signin .signin-input .input-bottom {
+  width: 100%;
+  height: 70px;
+  text-align: right;
+}
+.signin .signin-input .input-top {
+  border-bottom: 1px solid #C0C3C8;
+}
+.signin .signin-input input {
+  width: 85%;
+  height: 95%;
+  font-size: 20px;
+}
+.signin .signin-input input[value] {
+  font-size: 16px;
+}
+.signin .sign-in {
+  width: 400px;
+  height: 60px;
+  margin: 20px auto;
+  border: 4px solid #F9671E;
+  border-radius: 7px;
+  background: #F9671E;
+}
+.signin .sign-in p {
+  font-size: 30px;
+  text-align: center;
+  padding: 7px;
+}
+.signin .sign-in:hover {
+  background: none;
+  color: #F9671E;
+}
+.signin .Facebook, .signin .Twitter {
+  position: relative;
+  width: 400px;
+  height: 60px;
+  margin: 0px auto;
+  border-radius: 7px;
+}
+.signin .Facebook p, .signin .Twitter p {
+  font-size: 23px;
+  padding: 13px;
+  text-align: center;
+}
+.signin .Facebook {
+  margin-top: 80px;
+  background: #3B5998;
+}
+.signin .Twitter {
+  margin-top: 20px;
+  background: #1AB2E8;
+}
+.signin .cover[id="right"] {
+  right: 0;
+  background: #1AB2E8;
+}
+.signin .cover {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 4%;
+  background: #3B5998;
+  border-radius: 7px;
+  transition: width 1s,background 1s,opacity 1s;
+  -moz-transition: width 1s,background 1s,opacity 1s;
+  /* Firefox 4 */
+  -webkit-transition: width 1s,background 1s,opacity 1s;
+  /* Safari and Chrome */
+  -o-transition: width 1s,background 1s,opacity 1s;
+  /* Opera */
+}
+.signin .Facebook:hover .cover {
+  background-color: #000;
+  opacity: 0.2;
+  width: 100%;
+}
+.signin .Twitter:hover .cover {
+  background-color: #000;
+  opacity: 0.2;
+  width: 100%;
+}
 
 /*# sourceMappingURL=signin.css.map */

@@ -9,30 +9,37 @@ output, ruby, section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu,
 nav, section {
-  display: block; }
+  display: block;
+}
 
 ol, ul {
   list-style: none;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 input {
   border: none;
-  outline: medium; }
+  outline: medium;
+}
 
 /*# sourceMappingURL=style.css.map */
